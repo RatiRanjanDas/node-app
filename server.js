@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('<h1 style="purple:purple;">Jay Jagannath Swami Nayana Pathagami Bhava Tume!!</h1> \n');
+  res.send('<h1 style="green:green;">Jay Jagannath Swami Nayana Pathagami Bhava Tume!!</h1> \n');
 });
 
 app.listen(PORT, HOST);
